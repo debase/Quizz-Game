@@ -1,0 +1,19 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context=".fragment.CheckBoxValueSelectionFragment">
+
+    </LinearLayout>
+
+</ScrollView>

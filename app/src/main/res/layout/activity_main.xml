@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:fitsSystemWindows="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/avatar_width"
+                android:layout_height="@dimen/avatar_height"
+                android:src="@drawable/avatar_1"
+                android:id="@+id/user_avatar"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:text="Etienne D"
+                android:textSize="30sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_score"
+                android:text="0"
+                android:textSize="30sp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center_vertical|left|start"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:columnCount="2"
+                    app:rowCount="3"
+                    >
+
+                    <include layout="@layout/food_drink_layout"
+                        app:layout_columnWeight="1"
+                        style="@style/QuizzCardStyle"/>
+
+                    <include layout="@layout/history_layout"
+                        app:layout_columnWeight="1"
+                        style="@style/QuizzCardStyle"/>
+
+                    <include layout="@layout/science_layout"
+                        app:layout_columnWeight="1"
+                        style="@style/QuizzCardStyle"/>
+
+                    <include layout="@layout/tvmovies_layout"
+                        app:layout_columnWeight="1"
+                        style="@style/QuizzCardStyle"/>
+
+                </android.support.v7.widget.GridLayout>
+
+                <include layout="@layout/leaderboard_layout" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

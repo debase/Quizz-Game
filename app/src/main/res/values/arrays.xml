@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="history_question">
+        <item>The first words spoken on the moon by Buzz Aldrin were these:</item>
+        <item>What U.S. President committed an unpardonable sin by kissing the Queen Mother on the lips?</item>
+        <item>Cleopatra was Egyptian.</item>
+        <item>The Rosetta Stone is the name of the limestone slab that became the key for deciphering ancient Egyptian hieroglyphics.</item>
+        <item>Prior to 1664 New York was called:</item>
+        <item>What are the surnames of Bonnie and Clyde?</item>
+        <item>Joan of Arc, in the 15th century, was the first female promoted to this rank in the French army:</item>
+        <item>In which year did William Shakespeare die?</item>
+        <item>On which island was Napoleon born?</item>
+        <item>Which states did the United States gain after the Mexican War?</item>
+    </string-array>
+
+    <string-array name="food_drink_question">
+        <item>Name the Italian, semi-soft, rich cheese with blue veins through it.</item>
+        <item>Coffee beans contain more caffeine than tea leaves.</item>
+        <item>What are the three ingredients in mead (spices excluded)?</item>
+        <item>What crop does the Colorado Beetle attack?</item>
+        <item>What vegetable did Mark Twain describe as “cabbage with a college education”?</item>
+        <item>What name is given to a sugar syrup which is gently heated until it browns?</item>
+        <item>In Which city was chop suey invented?</item>
+        <item>One of the fattiest fishes is salmon. 4 ounces contains how many grams of fat?</item>
+        <item>In which American State did chili con carne originate?</item>
+        <item>What is the correct name for a cluster or bunch of bananas?</item>
+    </string-array>
+
+    <string-array name="science_nature_question">
+        <item>What is the layer of the earth underneath the crust called?</item>
+        <item>What is the only bird that can fly backwards?</item>
+        <item>What is the only cat in the world that can’t retract its claws?</item>
+        <item>Which chemical symbols are incorrect?</item>
+        <item>The vitreous humour is found in the human eye.</item>
+        <item>What’s the third color of the rainbow?</item>
+        <item>How many toes do most birds have?</item>
+        <item>If the temperature in Centigrade is minus 40 degrees what is the temperature in Fahrenheit?</item>
+        <item>What sort of creature is a fluke?</item>
+        <item>What two metals together make brass?</item>
+    </string-array>
+
+    <string-array name="tv_movies_question">
+        <item>Select the actors who played James Bond:</item>
+        <item>In which movie were Kevin Bacon, Bill Paxton, and Tom hanks on an aircraft?</item>
+        <item>In which famous sci-fi film did Robert Patrick play an assassin?</item>
+        <item>What was the name of Mork and Mindy’s child?</item>
+        <item>How old is Bart Simpson?</item>
+        <item>Where had King Kong lived before coming to New York in the 1933 film "King Kong"?</item>
+        <item>Stanley Kubrick directed the 1971 film "THX 1138."</item>
+        <item>The film "Ben Hur" holds the record for winning more Oscars than any other movie. How many?</item>
+        <item>Which Spielberg film gives an unflattering account of Carcharodon Carcharias?</item>
+        <item>In which film did Robert De Niro ask “Are you talkin’ to me?”</item>
+    </string-array>
+
+</resources>

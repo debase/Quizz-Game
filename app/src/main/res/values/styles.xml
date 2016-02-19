@@ -1,0 +1,111 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProfilTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="AppTheme.FloatingAccentButtonOverlay">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="TextMainQuizCard" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TextMainQuizCardLight" parent="TextMainQuizCard">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextMainQuizCardDark" parent="TextMainQuizCard">
+        <item name="android:textColor">@color/colorGreyDark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="QuizzCardStyle">
+        <item name="android:layout_margin">@dimen/quizz_card_margin</item>
+        <item name="android:layout_height">@dimen/quizz_card_height</item>
+        <item name="android:layout_width">@dimen/quizz_card_width</item>
+    </style>
+
+    <style name="AvatarStyle">
+        <item name="android:layout_margin">@dimen/quizz_card_margin</item>
+        <item name="android:layout_height">@dimen/avatar_height</item>
+        <item name="android:layout_width">@dimen/avatar_width</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_gravity">fill_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="QuizzGridStyle" parent="QuizzCardStyle">
+        <item name="android:layout_height">@dimen/quizz_grid_height</item>
+        <item name="android:layout_width">@dimen/quizz_grid_width</item>
+        <item name="android:layout_margin">@dimen/quizz_grid_margin</item>
+    </style>
+
+    <style name="HistoryTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlueDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="FoodDrinkTheme">
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorGreenDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ScienceNatureTheme">
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorRedDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TvMoviesTheme">
+        <item name="colorPrimary">@color/colorPurple</item>
+        <item name="colorPrimaryDark">@color/colorPurpleDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="TextValueSelection">
+        <!--EditText hint color-->
+        <item name="android:textColorHint">?attr/colorPrimaryDark</item>
+        <!-- TextInputLayout text color-->
+        <item name="colorControlActivated">?attr/colorPrimaryDark</item>
+        <!-- EditText line color when EditText on-focus-->
+        <item name="colorControlHighlight">?attr/colorPrimaryDark</item>
+        <!-- EditText line color when EditText  in un-focus-->
+        <item name="colorControlNormal">?attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="ProfileTextStyle">
+        <item name="android:textColor">@color/colorBlueDark</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <dimen name="avatar_height">60dp</dimen>
+    <dimen name="avatar_width">60dp</dimen>
+</resources>

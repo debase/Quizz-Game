@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">QuizGame</string>
+    <string name="topic_food_drink">Food and drink</string>
+
+    <string name="history">History</string>
+    <string name="science_and_nature">Science and nature</string>
+    <string name="food_and_drink"><![CDATA[Food & drink]]></string>
+    <string name="tv_movies"><![CDATA[Tv & movies]]></string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis faucibus lacus efficitur hendrerit. Aenean pellentesque tincidunt dolor, et varius ?</string>
+    <string name="title_activity_quizz">QuizzActivity</string>
+
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+    <string name="text_blank_hint">Fill the blank</string>
+
+    <string name="score_card">Scorecard</string>
+
+    <string name="history_answer_0">light</string>
+    <string name="history_answer_1">Jimmy Carter;Georges W.Bush,Jimmy Carter,Barack Obama,Lyndon B.Johnson,Ronald Reagan</string>
+    <string name="history_answer_2">false</string>
+    <string name="history_answer_3">false</string>
+    <string name="history_answer_4">amsterdam</string>
+    <string name="history_answer_5">Parker,Barrow;Parson,Parker,Patterson,Barlow,Barret,Barrow</string>
+    <string name="history_answer_6">General;Lieutenant,Sergeant,General,Captain</string>
+    <string name="history_answer_7">1616;1615,1635</string>
+    <string name="history_answer_8">Corsica;Sardinia,Corsica,Tahiti,Réunion,New Caledonia</string>
+    <string name="history_answer_9">New Mexico,California,Texas;Arizona,New Mexico,Louisiana,California,Nevada,Utah,Texas</string>
+
+    <string name="food_drink_answer_0">Gorgonzola;Ricotta,Blue Cheese,Gorgonzola,Parmesan</string>
+    <string name="food_drink_answer_1">false</string>
+    <string name="food_drink_answer_2">Honey,Water,Yeast;Sugar,Honey,Cinnamon,Water,Brow Sugar,Yeast</string>
+    <string name="food_drink_answer_3">Potato;Corn,Garlic,Potato,Wheat</string>
+    <string name="food_drink_answer_4">Cauliflower;Spinach,Broccoli,Cauliflower,Kale</string>
+    <string name="food_drink_answer_5">caramel</string>
+    <string name="food_drink_answer_6">San Francisco;Hong Kong,Taipei,New York,San Francisco</string>
+    <string name="food_drink_answer_7">9;1,10</string>
+    <string name="food_drink_answer_8">texas</string>
+    <string name="food_drink_answer_9">Hand;Foot,Hand,Flock,Pod</string>
+
+    <string name="science_nature_answer_0">mantle</string>
+    <string name="science_nature_answer_1">Hummingbird;Crow,Hummingbird,Pelican,Seagull,Albatross,Falcon,Sparrow</string>
+    <string name="science_nature_answer_2">Cheetah;Meerkat,Bobcat,Cheetah,Siamese</string>
+    <string name="science_nature_answer_3">Lithium &lt;&gt; Lt,Copper &lt;&gt; C,Silicon &lt;&gt; Sn;Helium &lt;&gt; He,Tungsten &lt;&gt; W,Lithium &lt;&gt; Lt,Nickel &lt;&gt; Ni,Copper &lt;&gt; C,Zinc &lt;&gt; Zn,Cadmium &lt;&gt; Cd,Potassium &lt;&gt; K,Silicon &lt;&gt; Sn</string>
+    <string name="science_nature_answer_4">true</string>
+    <string name="science_nature_answer_5">yellow</string>
+    <string name="science_nature_answer_6">8;1,12</string>
+    <string name="science_nature_answer_7">-40;-100,0</string>
+    <string name="science_nature_answer_8">Worm;Bird,Insect,Worm,Bear</string>
+    <string name="science_nature_answer_9">copper zinc</string>
+
+    <string name="tv_movies_answer_0">Sean Connery,Timothy Dalton,David Niven,Toby Stephens;Sean Connery,Clive Owen,Timothy Dalton,David Niven,Clint Eastwood,Toby Stephens</string>
+    <string name="tv_movies_answer_1">apollo 13</string>
+    <string name="tv_movies_answer_2">Terminator 2;Blade Runner,Terminator 2,Watchmen,Forbidden Planet</string>
+    <string name="tv_movies_answer_3">Mearth;Micah,Morty,Mearth,Magnus</string>
+    <string name="tv_movies_answer_4">10;6,13</string>
+    <string name="tv_movies_answer_5">skull</string>
+    <string name="tv_movies_answer_6">false</string>
+    <string name="tv_movies_answer_7">11;4,15</string>
+    <string name="tv_movies_answer_8">Jaws;Saving Private Ryan,E.T.,Jaws,The Color Purple</string>
+    <string name="tv_movies_answer_9">taxi driver</string>
+    <string name="user_name">First Name</string>
+    <string name="user_name_initial">Last Initial</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="your_avatar">Your Avatar</string>
+    <string name="quizz_game">Quizz Game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="title_activity_leaderboard">LeaderboardActivity</string>
+    <string name="create_profile">New profile</string>
+    <string name="logout">Log out</string>
+    <string name="delete_account">Delete account</string>
+    <string name="profile">Profile</string>
+    <string name="confirm_logout">Are you sure to delete this account ?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset scores</string>
+
+</resources>
